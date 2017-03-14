@@ -11,8 +11,8 @@ int interval = 60000;
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 
-const char* ssid = "your_wifi";
-const char* password = "your_password";
+const char* ssid = "your_wifi";   // Your own ssid here
+const char* password = "your_password";  // Your own password here
 
 String working() { 
   r = 50; // do some magic here!
