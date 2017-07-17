@@ -7,7 +7,7 @@ SSD1306  display(0x3c, D4, D3); // SDA, SCL
 
 SoftwareSerial swSer(D2, 12, false, 256);
 const char* host = "api.thingspeak.com";
-String url = "/update?api_key=YQFVMWXGIAHSG846";   // Your Own Key here
+String url = "/update?api_key=yourkeyplease";   // Your Own Key here
 const int httpPort = 80;
 
 const char* ssid = "kipfa-class1_2.4G";            
