@@ -5,7 +5,7 @@
 // Released to the public domain
 //
 #include <SoftwareSerial.h>
-SoftwareSerial dust(D1, D0, false, 256);
+SoftwareSerial dust(D1, D0, false, 256);  // RX, TX   no conneciton for TX (D0)
 
 void setup() {
   Serial.begin(115200);
