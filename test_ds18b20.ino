@@ -15,6 +15,10 @@ void setup() {
 }
 
 void loop() {
-  while (dust.available() > 0)
-    Serial.println(dust.read(), HEX);
+  byte c;
+  while (dust.available() > 0) {
+    Serial.print(" ");
+    Serial.print((c = dust.read()), HEX);
+    if (c == 0xAB) Serial.println();
+  }
 }
