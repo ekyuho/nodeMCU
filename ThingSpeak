@@ -1,14 +1,14 @@
 
 const char* host = "api.thingspeak.com";
-String url = "/update?api_key=1WBHM3QNVNB635D8";  
+String url = "/update?api_key=your_api_key";  
 const int httpPort = 80;
 int interval = 60000;
 
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 
-const char* ssid = "cookie";
-const char* password = "0317137263";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 String working() { 
   r = 50; // do some magic here!
