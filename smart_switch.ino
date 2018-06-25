@@ -47,6 +47,7 @@ void setup(void){
   digitalWrite(relay, 0);
   Serial.begin(115200);
   WiFi.mode(WIFI_STA);
+  // WiFi.config(IPAddress(192,168,0,250), IPAddress(192,168,0,1), IPAddress(255,255,255,0));
   WiFi.begin(ssid, password);
   Serial.println("");
 
