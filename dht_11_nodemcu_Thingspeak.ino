@@ -8,11 +8,11 @@
 
 #define DHTTYPE DHT11                  // We are Using DHT11
 
-String apiKey = "BDU9MTIJT4BG0131";    // Edit this API key according to your Account
+String apiKey = "";    // Edit this API key according to your Account
 
-String Host_Name = "pravash";         // Edit Host_Name
+String Host_Name = "";         // Edit Host_Name
 
-String Password = "passwird7";          // Edit Password
+String Password = "";          // Edit Password
 
 SoftwareSerial ser(2, 3);              // RX, TX
 
@@ -131,4 +131,3 @@ if(ser.find(">")){
  delay(1000);                                  // Update after every 15 seconds
 
 }
-
